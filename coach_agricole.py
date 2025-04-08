@@ -62,7 +62,7 @@ if go and question.strip():
         full_question = f"{question.strip()} (Culture : {culture}, Région : {ville})"
         with st.spinner("Consultation du conseiller agricole…"):
             try:
-                client = openai.OpenAI()
+                client = openai.OpenAI(api_key=openai.api_key)
                 response = client.chat.completions.create(
                     model="gpt-3.5-turbo",
                     messages=[
