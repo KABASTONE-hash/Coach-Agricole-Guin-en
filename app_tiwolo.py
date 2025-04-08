@@ -4,6 +4,7 @@ import openai
 import os
 from dotenv import load_dotenv
 
+# Charger les variables d'environnement (.env)
 load_dotenv()
 
 # Clé OpenAI
@@ -42,5 +43,7 @@ def sms_reply():
     twilio_response.message(content)
     return str(twilio_response)
 
+# 🔁 Code compatible Render : bind sur 0.0.0.0 et port dynamique
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
