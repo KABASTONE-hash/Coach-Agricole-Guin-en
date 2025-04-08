@@ -1,0 +1,37 @@
+{
+  "Riz": {
+    "Conakry": 270000,
+    "Kankan": 250000,
+    "Labé": 260000
+  },
+  "Manioc": {
+    "Conakry": 150000,
+    "Kankan": 120000,
+    "Labé": 130000
+  },
+  "Maïs": {
+    "Conakry": 200000,
+    "Kankan": 180000,
+    "Labé": 190000
+  },
+  "Arachide": {
+    "Conakry": 220000,
+    "Kankan": 210000,
+    "Labé": 200000
+  },
+  "Tomate": {
+    "Conakry": 320000,
+    "Kankan": 300000,
+    "Labé": 310000
+  },
+  "Piment": {
+    "Conakry": 380000,
+    "Kankan": 350000,
+    "Labé": 360000
+  },
+  "Oignon": {
+    "Conakry": 260000,
+    "Kankan": 240000,
+    "Labé": 250000
+  }
+}

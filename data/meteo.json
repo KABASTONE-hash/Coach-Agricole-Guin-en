@@ -1,0 +1,17 @@
+{
+  "Conakry": {
+    "météo": "Temps nuageux, 29°C",
+    "humidité": "85%",
+    "prochaine_pluie": "Dans 2 jours"
+  },
+  "Kankan": {
+    "météo": "Soleil, 34°C",
+    "humidité": "45%",
+    "prochaine_pluie": "Dans 5 jours"
+  },
+  "Labé": {
+    "météo": "Pluie légère, 22°C",
+    "humidité": "90%",
+    "prochaine_pluie": "Aujourd'hui"
+  }
+}
